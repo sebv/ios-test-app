@@ -4,7 +4,7 @@
   "description": "iOS app for testing",
   "main": "apps.json",
   "scripts": {
-    "install": "grunt default"
+    "install": "node -e \"require('grunt').tasks(['default']);\""
   },
   "repository": {
     "type": "git",
